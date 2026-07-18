@@ -1,17 +1,12 @@
 # cprofile-analyzer
 
-Standalone analyzer for Python `cProfile` `.prof` files (cumulative/self time, callers/callees, text/JSON).
+CLI to poke at `.prof` dumps from cProfile. Point it at a file and get something readable.
 
 ## Install
 
 ```bash
-pip install -e .
-cprofile-analyzer profile.prof
+pip install git+https://github.com/oldrepublicwizard/cprofile-analyzer.git
 ```
-
-## Origin
-
-Extracted from PyKotor `helper_scripts/python/analyze_profile.py`.
 
 ## License
 

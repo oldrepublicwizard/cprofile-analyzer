@@ -57,7 +57,7 @@ from typing import Any, Protocol, TextIO, cast
 # Default profile paths to try when --default-paths is used
 DEFAULT_PROFILE_PATHS = [
     Path("tests/cProfile/test_component_equivalence_20251203_160047.prof"),
-    Path("tslpatchdata/test_kotordiff_profile.prof"),
+    Path("tslpatchdata/test_sample_profile.prof"),
     Path("profile.prof"),
     Path("cProfile.prof"),
 ]
